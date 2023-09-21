@@ -3,11 +3,12 @@
 
 #include <iostream>
 #include <string>
+#include "VirtualPet.h"
 using namespace std;
 
 class Digimon : public VirtualPet {
     public:
-	Digimon(const string& name, int happiness, int hunger, const string& elem);
+	Digimon(const string& name, const string& elem);
 	void useSpecialAttack(Digimon& digi);
 
     private:
