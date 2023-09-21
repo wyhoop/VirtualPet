@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "Digiomon.h"
+#include "Digimon.h"
 using namespace std;
 
 Digimon::Digimon(const string& name, int happiness, int hunger, const string& elem) : VirtualPet(name, happiness, hunger){
