@@ -45,7 +45,7 @@ int main() {
 	cout << "Name: " << digidude.getName() << endl;
 	cout << "Happiness: " << digidude.getHappiness() << endl;
 	cout << "Hunger: " << digidude.getHunger() << endl;
-	cout << "Element: " << digidude.element << endl;
+	cout << "Element: " << digidude.getElement() << endl;
 	cout << endl;
 
 	//Display information about Pikachu pet
@@ -61,7 +61,7 @@ int main() {
 	cout << "Element: " << gatoboy.getElement() << endl;
 	cout << "Happiness: " << gatoboy.getHappiness() << endl;
 	cout << "Hunger: " << gatoboy.getHunger() << endl;
-	cout << "Sharpness Level: " << gatoboy.catClawSharpness << endl;
+	cout << "Sharpness Level: " << gatoboy.getCatClawSharpness() << endl;
 	cout << endl;
 	
 

@@ -10,6 +10,7 @@ class Digimon : public VirtualPet {
     public:
 	Digimon(const string& name, const string& elem);
 	void useSpecialAttack(Digimon& digi);
+	string getElement();
 
     private:
 	string element;

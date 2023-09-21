@@ -13,6 +13,7 @@ class Gatomon : public Digimon {
     public:
 	void useCatClawAttack(Gatomon& gati);
 	Gatomon(const string& name, const string& element, int catClawSharpness);
+	int getCatClawSharpness();
 };
 
 #endif

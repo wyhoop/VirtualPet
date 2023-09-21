@@ -18,3 +18,6 @@ void Gatomon::useCatClawAttack(Gatomon& gato) {
 		cout << getName() << " needs to spend some more time sharpening their claws... they are unable to hit " << gato.getName() << "  with that attack..." << endl;
 }
 
+int Gatomon::getCatClawSharpness() {
+	return catClawSharpness;
+}

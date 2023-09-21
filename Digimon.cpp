@@ -12,3 +12,7 @@ void Digimon::useSpecialAttack(Digimon& digi) {
     cout << getName() << " uses their Special Attack on " << digi.getName() << "!" << endl;  
 }
 
+string Digimon::getElement() {
+	return element;
+}
+
