@@ -9,7 +9,7 @@ Digimon::Digimon(const string& name, const string& elem) : VirtualPet(name){
 }
 
 void Digimon::useSpecialAttack(Digimon& digi) {
-    cout << getName() << " uses their Special Attack on " << digi.getName() << "!" << endl;  
+    cout << getName() << " uses their Special Attack on " << digi.getName() << "!" << endl << endl;  
 }
 
 string Digimon::getElement() {
